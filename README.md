@@ -137,6 +137,20 @@ LooK-Back/
 - ⬜️ 📦 Release the training datasets
 - ⬜️ 🧹 The full codebase is being **cleaned and documented**
 
+
+---
+
+## 📜 Citation
+```bibtex
+@misc{lookback2025,
+  title={Look-Back: Implicit Visual Re-focusing in MLLM Reasoning},
+  author={Shuo Yang⋆, Yuwei Niu⋆, Yuyang Liu, Yang Ye, Bin Lin, Li Yuan.},
+  year={2025},
+  url={[https://arxiv.org/pdf/2505.07889](https://arxiv.org/abs/2507.03019)}
+}
+```
+---
+
 ## 🙏 Acknowledgements
 * The training codes are built on [EasyR1](https://github.com/hiyouga/EasyR1)
 * The evaluation scripts in this repository were built on top of the excellent work from the [NoisyRollout](https://github.com/NUS-TRAIL/NoisyRollout) repository.
