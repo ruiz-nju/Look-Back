@@ -3,8 +3,8 @@ export VLLM_ATTENTION_BACKEND=XFORMERS
 export VLLM_USE_V1=0
 export HF_ENDPOINT=https://hf-mirror.com
 
-HF_MODEL="./MLLMs/Semantic-back-7B"
-EVAL_DIR="./eval"
+HF_MODEL="/home/bml_job/custom_workspace/job-gguryn8pkf7k/zhurui/Look-Back/MLLMs/Semantic-back-7B"
+EVAL_DIR="/home/bml_job/custom_workspace/job-gguryn8pkf7k/zhurui/Look-Back/eval"
 DATA_DIR="$EVAL_DIR/eval_data"
 RESULTS_DIR="${HF_MODEL%/actor/huggingface}/results"
 mkdir -p "$RESULTS_DIR"
